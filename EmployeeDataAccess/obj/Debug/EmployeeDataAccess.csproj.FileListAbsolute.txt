@@ -9,3 +9,4 @@ E:\MyProjects\EmployeeSerivceAPIDemo\EmployeeDataAccess\obj\Debug\EmployeeDataAc
 E:\MyProjects\EmployeeSerivceAPIDemo\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.CopyComplete
 E:\MyProjects\EmployeeSerivceAPIDemo\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.dll
 E:\MyProjects\EmployeeSerivceAPIDemo\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.pdb
+E:\MyProjects\EmployeeSerivceAPIDemo\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csprojAssemblyReference.cache

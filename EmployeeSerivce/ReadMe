@@ -1,2 +1,18 @@
 ﻿1) Require Https Attribute
 2) This is upto Basic Authenication
+3) uses    return Request.CreateResponse(HttpStatusCode.OK,
+                            entities.Employees.ToList()); and 
+							Request.CreateResponse(HttpStatusCode.Created, employee);
+                    message.Headers.Location = new Uri(Request.RequestUri + "/" +   employee.ID.ToString());
+
+Use Postman to login
+			
+
+Get https://localhost:44367/api/Employees
+Authorization : Basic  ZmVtYWxlOmZlbWFsZQ==
+Authorization :  Basic bWFsZTptYWxl
+
+
+id 		male  passoword 	male 
+Use https://localhost:44367/Employees.html
+ 

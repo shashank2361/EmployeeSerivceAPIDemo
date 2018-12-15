@@ -68,7 +68,8 @@ namespace EmployeeSerivce.Controllers
         //}
 
 
-        //to get 201 Item Created.With 201 status code we should also include the location i.e URI of the newly created item.To achieve this, change the implementation of the Post() method as shown below. 
+        //to get 201 Item Created.With 201 status code we should also 
+        //include the location i.e URI of the newly created item.To achieve this, change the implementation of the Post() method as shown below. 
         public HttpResponseMessage Post([FromBody] Employee employee)
         {
             try
@@ -116,8 +117,6 @@ namespace EmployeeSerivce.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
             }
         }
-
-
         
 public HttpResponseMessage Put(int id, [FromBody]Employee employee)
 {
